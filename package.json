@@ -1,6 +1,6 @@
 {
   "name": "pancho",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Your applications also deserve a nap.",
   "author": {
     "name": "Stefan Aichholzer",
@@ -40,7 +40,7 @@
   "bugs": {
     "url": "https://github.com/aichholzer/pancho/issues"
   },
-  "_from": "pancho@^0.0.0",
+  "_from": "pancho@^0.1.0",
   "_npmUser": {
     "name": "aichholzer",
     "email": "theaichholzer@gmail.com"

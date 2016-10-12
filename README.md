@@ -9,7 +9,7 @@ Your applications also deserve a nap.
 
 ### Install
 ```
-npm install -s pancho
+npm install --save pancho
 ```
 
 
