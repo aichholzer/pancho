@@ -3,20 +3,19 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/aichholzer/pancho.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/aichholzer/pancho.svg?branch=master)](https://travis-ci.org/aichholzer/pancho)
 [![Downloads](https://img.shields.io/npm/dt/pancho.svg)](https://www.npmjs.com/package/pancho)
-[![Always useful](https://img.shields.io/badge/always-useful-ff6400.svg)](https://github.com/aichholzer/pancho)
 
 Your applications also deserve a nap.
 
 
 ### Install
 ```
-npm install --save pancho
+npm i pancho
 ```
 
 
 ### Use
 
-`pancho` returns a promise, making it easy to control your program's flow after waking up.<br />
+`pancho` returns a promise, making it easy to control your program's flow after "waking up".<br />
 `pancho` takes arguments in the form of:
 
  - pancho(`int`) - Sleep for `int` seconds,

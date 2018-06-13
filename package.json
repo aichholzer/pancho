@@ -1,6 +1,6 @@
 {
   "name": "pancho",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "description": "Your applications also deserve a nap.",
   "author": {
     "name": "Stefan Aichholzer",
@@ -26,16 +26,23 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jscs": "^3.0.7",
-    "mocha": "^5.1.1",
-    "should": "^13.2.1"
+    "eslint": "4.x",
+    "eslint-config-airbnb-base": "12.x",
+    "eslint-config-prettier": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-prettier": "2.x",
+    "mocha": "5.x",
+    "prettier": "^1.13.5",
+    "should": "13.x"
   },
   "main": "./lib/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R progress -t 10000"
+    "test": "mocha -R spec -t 10000",
+    "eslint:fix": "eslint --quiet --fix .",
+    "pretest": "eslint --quiet ."
   },
   "bugs": {
     "url": "https://github.com/aichholzer/pancho/issues"

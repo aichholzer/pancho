@@ -1,0 +1,9 @@
+.idea
+test/
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitignore
+.prettierrc.json
+.travis.yml
+.package.json
