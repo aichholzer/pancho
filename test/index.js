@@ -1,5 +1,5 @@
-const nap = require('../lib');
 const should = require('should');
+const nap = require('../lib');
 
 it('Single value', (done) => {
   // Nap for one second
