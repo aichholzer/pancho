@@ -31,7 +31,7 @@
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-prettier": "2.x",
-    "mocha": "5.x",
+    "mocha": "^6.0.0",
     "prettier": "^1.13.5",
     "should": "13.x"
   },
